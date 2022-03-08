@@ -13,4 +13,11 @@ const newsApi = axios.create({
         })
 };
 
+const getArticle = (article_id) => {
+  return newsApi.get(`/articles`, {params: {article_id}})
+  .then((response) => {
+      return response.data
+  })
+}
+
 export {newsApi, getArticles}

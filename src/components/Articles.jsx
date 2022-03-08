@@ -14,7 +14,7 @@ export default function Articles() {
     });
   }, []);
 
-  if (isLoading) return <p>loading..</p>;
+  if (isLoading) return <p>loading...</p>;
 
 
   return <section className="articles-container">
