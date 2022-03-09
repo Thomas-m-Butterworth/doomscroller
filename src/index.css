@@ -35,17 +35,19 @@ header {
   justify-content:center;
 }
 
+
 .article-card {
-  width: 40vw;
+  width: 45vw;
   height: 20vh;
   border-radius: 10%;
   overflow: hidden;
-  padding: 10px;
-  margin-left: 10px;
-  margin-right: 10px;
-  margin-top: 10px;
-  margin-right: 10px;
+  padding: 7px;
+  margin-left: 7px;
+  margin-right: 7px;
+  margin-top: 7px;
+  margin-right: 7px;
   background-color: #006f56;
+  text-align: center;
 }
 
 .article-body{
@@ -60,7 +62,7 @@ header {
 
 .subtitle {
   font-weight: 200;
-  font-size: 12px;
+  font-size: 11px;
 }
 
 .article-info p{
@@ -73,3 +75,22 @@ header {
   flex-direction: row;
   color: #006f56;
 }
+
+.article-link {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 12px;
+}
+
+.single-article{
+  margin:auto;
+  width: 90vw;
+}
+.article-title {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-family: 'Concert One', cursive;
+  color: #F0F0F0;
+}
+

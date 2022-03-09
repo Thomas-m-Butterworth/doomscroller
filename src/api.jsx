@@ -13,4 +13,12 @@ const newsApi = axios.create({
         })
 };
 
-export {newsApi, getArticles}
+const getArticle = (id) => {
+  return newsApi.get(`/articles/${id}`)
+  .then((response) => {
+    console.log(response.data)
+      return response.data.article
+  })
+}
+
+export {newsApi, getArticles, getArticle}
